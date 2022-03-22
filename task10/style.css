@@ -1,0 +1,123 @@
+
+    h1{
+        text-align:center;
+        text-transform:capitalize;
+    }
+    .maindiv,.devide,.admindiv,.devide2{
+        display: flex;
+        align-items:center;
+        padding: 20px;
+        justify-content: center;
+        height: auto;
+        margin: 50px;
+        
+    }
+    .devide{
+      height: 400px;
+    }
+    .admindiv{
+        justify-content: space-around;
+    }
+    .img,.img2{
+        width:250px;
+        height: 100%;
+        background:red;
+        padding: 52px 35px;
+        
+    }
+    form{
+        height: 100%;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+    }
+input{
+    width: 100%;
+    padding: 10px 2px;
+    margin: 5px 2px 5px 2px;
+   
+}
+
+label{
+    color: #000;;
+    margin: 15px 2px;
+}
+.button,.button2,.adminbutton,.adminlog,#button{
+    width: 150px;
+    background-color:red;
+    color: #fff;
+    padding: 15px 0;
+    cursor: pointer;
+    border:none;
+}
+#button{
+    background-color:blue;
+}
+.adminbutton{
+    width: auto;
+    padding: 15px;
+}
+.adminlog{
+  
+}
+.adminbtn{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:10px 50px;
+}
+h3{
+    font-size:25px;
+}
+
+.btn{
+    text-align:center;
+    margin-top:30px ;
+    margin-bottom:0px 
+}
+
+.bt2{
+    text-align:end;
+    margin: 5px 25px;
+}
+.errormessage{
+    margin: 0 !important;
+    color:red;
+}
+a{
+    text-decoration:none;
+}
+p{
+    text-align:center;
+}
+span{
+    color:blue;
+}
+.errormessage{
+    text-align:center;
+    margin-top: 100px  !important;
+
+}
+.errormessage img{
+    height: 300px;
+}
+.errormessage h1{
+    text-transform: capitalize;
+    margin: 10px;
+}
+.devide2{
+        height: 475px; 
+}
+.img2{
+       background:blue;
+}
+.errormessagee{
+    margin: 0 !important;
+    color:blue;
+}
+a{
+    text-decoration:none;
+}
